@@ -1,0 +1,78 @@
+
+
+VISHAL KORIYA                           Mobile : +91-9737489549 
+vishalkoriya@ymail.com       linkedin.com/in/vishal-koriya 
+Software Engineer with 7+ years of experience building high scale products in the consumer 
+internet. Skilled in designing and implementing distributed systems.
+SKILLS
+PHP | JavaScript | Typescript | MySQL | PostgreSQL|Redis| MongoDB
+Laravel | Node.Js| Express | Angular |Vue.Js | HTML |CSS | Symfony | WordPress
+Docker | Git | Bash | Elasticsearch | PubNub | Zoom | Socket.IO | Agora | Firebase
+AWS [ EC2, Route53, RDS, S3, IAM, Cloudfront ] | Azure [ Front Door, Storage, Speech to Text, 
+VM ] | OCI | Azure | GCP | REST API | Linux  
+Experience
+ 
+Tech Lead, Plutomen Technologies Pvt. Ltd. - Apr’24 to Present
+Collaborated   with   product   managers   to   define   feature   road-map   and   prioritize 
+development efforts, resulting in a 30% improvement in time-to-market.
+Implemented quality assurance processes and conducted code reviews, resulting in a 
+25% decrease in the number of bugs in the final product.
+Facilitated Scrum meetings, including daily stand-ups and sprint planning sessions, to 
+ensure effective team collaboration, track progress, and address any blockers in the 
+development process.
+Successfully   integrated   a   digital   workflow   instruction   module   with   the   Connect 
+application, optimizing workflow efficiency and interoperability.
+Sr. Software Developer, Plutomen Technologies Pvt. Ltd. - Apr’21 to Mar’24
+Played a pivotal role in the end-to-end new product development life-cycle, from concept 
+ideation to successful product launch for digital work instruction and sops(Plutomen 
+workflow).
+Led efforts to improve the performance of the remote collaboration app by analyzing, 
+identifying bottlenecks, and implementing targeted enhancements. 
+Successfully implemented the integration of the Field Lightning module (Salesforce) with 
+remote collaboration app.
+Successfully   managed   the   migration   of   server   infrastructure   from   AWS   to   Azure, 
+optimizing   performance   and   reducing   operational   costs   while   ensuring   minimal 
+downtime and seamless transition for users.
+Software Developer, Plutomen Technologies Pvt. Ltd. - Jun’18 to Mar’21
+ 
+Managed the full life cycle of product development from concept to market launch, 
+particularly for AR-based applications (Plutomen Connect), ensuring the delivery of 
+innovative and functional solutions.
+Experienced in designing and developing web services and back-end admin systems  for 
+diverse   applications,   including,   virtual   exhibition   management,   AR-based   virtual 
+
+tag,Billing management and e-commerce platforms, enhancing functionality and user 
+experience.
+Integrated real-time chat support and video, enhancing the user experience in AR-based 
+remote assistance scenarios.
+Built a Web AR for a coffee company using 8th Wall and Three.js, demonstrating the use 
+of AR to enhance brand engagement.
+Experienced in deploying, managing, and maintaining servers to ensure the smooth 
+operation of applications.
+Application Engineer, Merce Technologies Pvt. Ltd. - Mar’17 to Jun’18  
+Designed and developed a comprehensive ERP (Bid Management Solution) tailored for 
+an Infrastructure & Financial Advisor Company, enhancing project bidding processes 
+and resource management.
+Created scalable, efficient RESTful APIs for seamless communication between front-end 
+and back-end systems, ensuring secure and reliable data exchange.
+Engineered robust database architectures with optimized queries for faster data 
+retrieval, improving overall application performance.
+Technical Support Engineer,  Mehta   Cad   Cam   Systems   Pvt.   Ltd.     -     Aug'2015   to 
+Sept'2016
+My role as a technical support engineer is to diagnose and troubleshoot technical issues.
+Education 
+B. E. Electronics & Communication       Diploma in Electronics & Communication 
+GTU (G.E.C. Modasa)         GTU (VPMP Polytechnic) 
+72.10% Aug-2012 to May-2015             83.00%       Aug-2009 to Apr-2012
+Professional Training  Sept'16 to Mar'17
+Pursued 6 months of professional training in Embedded System at vector India institute 
+(Bangalore).
+Personal Details 
+Marital Status :    Married 
+Date of Birth    :    06-Jul-1994
+Address:    119/ Bharagv society, kuber nagar ,Bunglow area, Ahm-40
+Declaration
+I hereby declare that the information and facts stated above are true, correct, and com-
+plete to the best of my knowledge and belief.
+  
+Date:                                                                                              (VISHAL KORIYA)

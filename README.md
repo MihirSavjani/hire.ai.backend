@@ -1,10 +1,12 @@
 # Hire.AI Backend - LangChain with Gemini
 
-A Node.js backend service that integrates LangChain with Google's Gemini AI for intelligent chat and content generation capabilities.
+A Node.js backend service that integrates LangChain with Google's Gemini AI for intelligent chat, content generation, and interview question generation capabilities.
 
 ## 🚀 Features
 
 - **LangChain Integration**: Full LangChain support with Gemini AI
+- **Interview Question Generator**: Generate customized interview questions based on role, skills, and PDF context
+- **File Upload Support**: Handle PDF uploads for question generation
 - **RESTful API**: Express.js server with comprehensive endpoints
 - **Streaming Support**: Real-time chat streaming capabilities
 - **Security**: Helmet.js for security headers and CORS protection
@@ -19,12 +21,15 @@ be/
 │   ├── config/
 │   │   └── gemini.js          # Gemini AI configuration
 │   ├── routes/
-│   │   └── langchain.js       # API routes for LangChain
+│   │   ├── langchain.js       # API routes for LangChain
+│   │   └── interviewQuestions.js # Interview questions routes
 │   ├── services/
-│   │   └── langchainService.js # Core LangChain service
+│   │   ├── langchainService.js # Core LangChain service
+│   │   └── interviewQuestionService.js # Interview questions service
 │   ├── utils/
 │   │   └── logger.js          # Logging utility
 │   └── index.js               # Main application entry point
+├── uploads/                   # File upload directory
 ├── package.json
 ├── env.example                # Environment variables template
 └── README.md
@@ -77,11 +82,15 @@ The server will start on `http://localhost:3000`
 ### Health Check
 - **GET** `/health` - Server health status
 - **GET** `/api/langchain/health` - LangChain service health
+- **GET** `/api/interview-questions/health` - Interview questions service health
 
 ### Chat Endpoints
 - **POST** `/api/langchain/chat` - Basic chat functionality
 - **POST** `/api/langchain/chat/stream` - Streaming chat responses
 - **POST** `/api/langchain/generate` - Content generation
+
+### Interview Questions Endpoints
+- **POST** `/api/interview-questions/generate` - Generate interview questions
 
 ## 🔧 API Usage Examples
 
@@ -116,6 +125,46 @@ curl -X POST http://localhost:3000/api/langchain/generate \
       "maxOutputTokens": 1000
     }
   }'
+```
+
+### Interview Questions Generation
+```bash
+curl -X POST http://localhost:3000/api/interview-questions/generate \
+  -F "role=Software Engineer" \
+  -F "skills=[\"JavaScript\", \"React\", \"Node.js\"]" \
+  -F "questionComplexity=75" \
+  -F "numberOfQuestions=5" \
+  -F "pdf=@/path/to/job-description.pdf"
+```
+
+**Request Parameters:**
+- `role` (string, required): The position being interviewed for
+- `skills` (JSON array, required): Array of required skills
+- `questionComplexity` (number 1-100, required): Difficulty level
+- `numberOfQuestions` (number, required): Number of questions to generate
+- `pdf` (file, required): PDF file with job description or context
+
+**Response Format:**
+```json
+{
+  "success": true,
+  "data": {
+    "role": "Software Engineer",
+    "skills": ["JavaScript", "React", "Node.js"],
+    "questionComplexity": 75,
+    "numberOfQuestions": 5,
+    "questions": [
+      {
+        "question": "Explain the difference between var, let, and const in JavaScript",
+        "type": "technical",
+        "complexity": "intermediate",
+        "expectedAnswer": "var is function-scoped, let/const are block-scoped...",
+        "skills": ["JavaScript"]
+      }
+    ]
+  },
+  "timestamp": "2024-01-01T12:00:00.000Z"
+}
 ```
 
 ## 🔍 Environment Variables

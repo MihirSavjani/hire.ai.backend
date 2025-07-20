@@ -11,7 +11,7 @@ export class LangChainService {
     const apiKey = process.env.GOOGLE_API_KEY || process.env.GEMINI_API_KEY;
     
     this.model = new ChatGoogleGenerativeAI({
-      model: "gemini-2.0-flash",
+      model: "gemini-2.5-pro",
       apiKey: apiKey,
       temperature: geminiConfig.temperature,
       topK: geminiConfig.topK,
@@ -86,7 +86,7 @@ export class LangChainService {
 
       const apiKey = process.env.GOOGLE_API_KEY || process.env.GEMINI_API_KEY;
       const customModel = new ChatGoogleGenerativeAI({
-        model: "gemini-pro",
+        model: "gemini-2.5-pro",
         apiKey: apiKey,
         ...config,
       });
